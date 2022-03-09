@@ -13,6 +13,6 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      cd /etc/ansible/
-      wget https://raw.githubusercontent.com/Smuller91/ansible-docker/main/playbook1.yml
+      cd /etc/ansible/playbooks
+      curl -O https://raw.githubusercontent.com/Smuller91/ansible-docker/main/playbook1.yml
       ansible-playbook playbook1.yml
