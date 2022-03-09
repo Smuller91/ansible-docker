@@ -104,3 +104,8 @@
       mode: '770'
       owner: 'hwadmin'
       group: 'docker'
+
+  - name: joe
+    file:
+      path: /joe
+      state: directory
